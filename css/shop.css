@@ -1,0 +1,129 @@
+:root{
+    --image: repeating-conic-gradient(rgb(250, 225, 134)8%, rgb(224, 163, 7)10%);
+    --card:rgba(0, 0, 0, 0.208);
+}
+
+.exi{
+    background-color: var(--color1);
+}
+
+.exciting-offer{
+    /* border: 1px solid red; */
+    padding: 0;
+    /* background: linear-gradient(90deg, #FF930F, #FFF95B); */
+    /* color: #660000; */
+}
+
+
+.ring,.earring,.bracelet,.necklace{
+    padding: 0;
+    /* margin: 20px 0 10px; */
+    
+}
+
+
+
+.container .product-box{
+    /* border: 1px solid red;    */
+    padding: 30px;
+    font-family: var(--p);
+    /* border-radius: 20px; */
+}
+
+.container .product-box .view-more{
+    /* border: 1px solid red; */
+    text-align: center;
+    /* height: 100px; */
+    /* display: flex; */
+    /* padding: 20px; */
+}
+
+.container .product-box .view-more a:hover{
+    background-color: #9c824a;
+    color: #300708;
+}
+
+.container .product-box .view-more a{
+    /* border: 1px solid black; */
+    transition: 1s;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    background-color: #300708;
+    color: #9c824a;
+    border-radius:10px;
+}
+
+.container .ring-box{
+    background: var(--color1);
+    /* background: linear-gradient(90deg, #EBF4F5, #B5C6E0); */
+    /* background: radial-gradient(circle, hsla(197, 100%, 96%, 1) 0%, hsla(45, 100%, 92%, 1) 100%); */
+    
+}
+
+.container .earring-box{
+    background: var(--color2);
+}
+
+.container .necklace-box{
+    background: var(--color1);
+}
+
+.container .bracelet-box{
+    background: var(--color2);
+}
+
+.product-box .product-name{
+    font-size: 4em;
+    text-align: center;
+    color:#300708;
+    margin-bottom: 50px;
+}
+
+.product-box .type{
+    /* border: 1px solid red; */
+    background-color:#9c824a;
+    color:#300708;
+    margin-bottom: 10px;
+    text-align: center;
+    /* max-width: max-content; */
+    border-radius: 20px;
+    
+}
+
+.product-box .card-box{
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    justify-content: space-around;
+    /* background-color: rgba(0, 0, 0, 0.258); */
+    /* background-color:#9c824a; */
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:565px){
+    .ring-box .product-name{
+
+    }
+
+    .product-box .type{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.379);
+        background-image: none;
+        color: white;
+        background-clip:border-box;
+        padding: 20px 0;
+        border-radius: 20px;
+    }
+
+    .product-box .card-box{
+        background-color: transparent;
+        padding: 0px 0px;
+        border-radius: 20px;
+    }
+
+
+}

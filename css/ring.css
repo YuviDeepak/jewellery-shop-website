@@ -1,0 +1,129 @@
+.collection{
+    /* border: 1px solid red; */
+}
+
+.collection .collection-head{
+    /* border: 1px solid blue; */
+    color: #300708;
+    text-align: center;
+}
+
+.collection .collection-box{
+    /* border: 1px solid yellow; */
+    padding: 20px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-banner{
+    /* border: 1px solid red; */
+    position: relative;
+    padding: 0;
+    z-index: 10;
+}
+
+.about-banner .about-banner-img{
+    /* border: 10px solid blue; */
+    height: 90vh;
+}
+
+.about-banner .about-banner-img img{
+width: 100%;
+height: 100%;
+object-fit: fill;
+}
+
+.about-banner .content{
+    /* border: 1px solid red; */
+position: absolute;
+top: 20%;
+right: 30%;
+width: 500px;
+height: 200px;
+z-index: 20;
+color: white;
+font-size: 4em;
+text-align:center;
+}
+
+
+@media screen and (max-width:576px){
+
+    .about-banner .about-banner-img{
+        /* border: 10px solid blue; */
+        height: 35vh;
+        position: relative;
+    }
+
+    .about-banner .about-banner-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .about-banner .content{
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        width: 1000px;
+        height: 200px;
+        z-index: 20;
+        color: white;
+        font-size: 1em;
+        text-align: end;
+    }
+
+    .about .about-box{
+        padding: 0;
+    }
+
+    .about .about-box .about-flex{
+        padding:20px 0px 0px;
+    
+    }
+
+    
+    .about .about-box .about-flex .fbox{
+        gap: 1em;
+    }
+
+    .about .about-box .about-flex .image{
+        height: 200px;
+        width: 400px;
+    }
+
+    .about .about-box .about-flex  .content h1{
+        font-size: 2em;
+        color: #887347;
+        margin-bottom: 20px;
+    }
+
+    .about .about-box .about-flex  .content p{
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .about .about-box .head{
+        text-align: center;
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+
+    .about .about-box .head h1{
+        font-size: 2em;
+        color: #887347;
+        margin-bottom: 10px;
+    }
+    .about .about-box .head p{
+        font-size: 1em;
+    }
+
+    .about .about-box .about-flex .fbox{
+        padding: 30px;
+    }
+
+
+}
